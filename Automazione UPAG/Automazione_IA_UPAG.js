@@ -130,7 +130,7 @@ function salvaParolaConAI() {
 
 function scopriModelliDisponibili() {
   // Inserisci qui la tua API Key
-  var apiKeyGemini = "AIzaSyD6znkH1ViGqQi4kTZ-2x6xuHg-VtfDogA"; 
+  var apiKeyGemini = "INSERISCI_QUI_LA_TUA_API_KEY"; 
   
   var url = "https://generativelanguage.googleapis.com/v1beta/models?key=" + apiKeyGemini;
   var risposta = UrlFetchApp.fetch(url);
